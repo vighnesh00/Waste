@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Leaves', 'Metal', 'Paper', 'Pen', 'cable', 'tomato']
+
+roboflow:
+  workspace: 1-waywp
+  project: waste-detection-6rkqs
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/1-waywp/waste-detection-6rkqs/dataset/3
